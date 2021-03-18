@@ -7,20 +7,43 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
-        <main>
+        <main id="name-tag">
             <header>
                 <h1>Hello</h1>
                 <h2>my name is</h2>
             </header>
-            <section>
+            <section id="change-me">
                 Steven Universe
             </section>
-            <footer></footer>
+            <footer>
+                <div id="pronouns">She / her</div>
+            </footer>
+
         </main>
     </div>
+    <div class="inputs">
+        <div class="names-form">
+            <input id="name-field" placeholder="Change Name.." />
+            <button id="change-name-button">Submit</button>
+        </div>
+        <div class="pronouns-form">
+            <input id="pronouns-field" placeholder="Change Pronouns.." />
+            <button id="change-pronouns-button">Submit</button>
+        </div>
+        <div class="background-form">
+            <button id="change-background-button">Change Background</button>
+        </div>
+        <div class="font-form">
+            <button id="change-font-button">Toggle Font</button>
+        </div>
+    </div>
 </body>
+
+<script src="app.js"></script>
 </html>
